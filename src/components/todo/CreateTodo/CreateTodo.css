@@ -1,0 +1,41 @@
+.create-todo-container {
+  width: auto;
+  height: 33px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+  margin: 4px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.create-button {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  margin-left: 2px;
+}
+.create-icon {
+  padding: 0;
+  color: orange;
+}
+.create-todo-input {
+  -webkit-appearance: none;
+  display: flex;
+  flex-grow: 1;
+  outline: none;
+  background-color: white;
+  border: 1px solid white;
+  transition: 0.15s;
+  color: black;
+  font-size: 16px;
+  font-weight: regular;
+  padding: 9px;
+  margin-left: 10px;
+}
+.create-todo-input::placeholder {
+  color: lightgray;
+}

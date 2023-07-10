@@ -1,0 +1,31 @@
+.todo-input {
+  display: flex;
+  flex-grow: 1;
+  outline: none;
+  background-color: white;
+  border: 1px solid white;
+  transition: 0.15s;
+  color: black;
+  font-size: 16px;
+  font-weight: regular;
+  padding: 8px;
+  margin-left: 13px;
+  margin-right: 8px;
+  -webkit-appearance: none;
+}
+.todo-input:hover {
+  transition-delay: 0.1s;
+  border: 1px solid #e9e6e6;
+}
+.todo-input:focus {
+  transition-delay: 0s;
+  border: 1px solid #e9e6e6;
+}
+.todo-input::placeholder {
+  color: #d0021b;
+  opacity: 0.4;
+}
+.item-completed {
+  text-decoration: line-through;
+  color: lightgray;
+}

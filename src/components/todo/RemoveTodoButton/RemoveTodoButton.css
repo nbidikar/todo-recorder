@@ -1,0 +1,17 @@
+.action-button {
+  background-color: white;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.remove-action {
+  transition: 0.3s;
+  width: 26px;
+  height: 26px;
+  color: #d0021b;
+}
+.remove-action:hover {
+  color: #ff001e;
+}
